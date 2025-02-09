@@ -81,4 +81,5 @@ ul li span{
 }
 ul li span:hover{
     background: #edeef0;
+    color : #555;
 }
