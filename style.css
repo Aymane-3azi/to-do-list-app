@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(135deg,#153677,#4e085f);
+    width: 100% ;
+     min-height: 100vh;
+     padding: 10px;
+}
+.container .todolist{
+    background: #fff;
+   width: 100%;
+   max-width: 540px;
+   margin: 100px auto 20px ;
+   padding: 15px 20px 70px;
+   border-radius: 10px;
+   position: relative;
+}
+.container .todolist h2{
+   color: #002765;
+   margin-bottom: 20px;
+}
+.container .todolist .inputbox{
+    width: 100%;
+    background: #edeef0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+.container .todolist .inputbox input{
+    flex: 1;
+    height: 100%;
+    border-radius: 40px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.container .todolist .inputbox button{
+    width: 100px;
+    height: 100%;
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff5945;
+}
+ul li{
+    list-style: none;
+    padding: 10px 8px 10px 20px;
+    font-size: 16px;
+    user-select: none;
+    cursor: pointer;
+
+}
+#list .cheked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    color: #555;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s ;
+}
+ul li span:hover{
+    background: #edeef0;
+}
